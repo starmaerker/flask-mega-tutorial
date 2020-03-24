@@ -15,7 +15,11 @@ def katalog():
 
 @app.route('/rangliste')
 def rangliste():
-    return 'rangliste'
+    return 'Rangliste'
+
+@app.route('/login')
+def login():
+    return 'Login'
 
 
 if __name__ == '__main__':
