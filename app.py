@@ -11,15 +11,15 @@ def index():
 
 @app.route('/katalog')
 def katalog():
-    return 'katalog'
+    return render_template('katalog.html')
 
 @app.route('/rangliste')
 def rangliste():
-    return 'Rangliste'
+    return render_template('rangliste.html')
 
 @app.route('/login')
 def login():
-    return 'Login'
+    return render_template('login.html')
 
 
 if __name__ == '__main__':
